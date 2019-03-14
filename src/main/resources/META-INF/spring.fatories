@@ -1,0 +1,11 @@
+org.springframework.boot.SpringApplicationRunListener=\
+    com.example.demo.listener.DemoSpringApplicationRunListener
+    
+org.springframework.context.ApplicationListener=\
+    com.example.demo.listener.DemoContextInitializedApplicationListener,\
+    com.example.demo.listener.DemoEnvironmentPreparedApplicationListener,\
+    com.example.demo.listener.DemoFailedEventApplicationListener,\
+    com.example.demo.listener.DemoPreparedApplicationListener,\
+    com.example.demo.listener.DemoReadyApplicationListener,\
+    com.example.demo.listener.DemoStartedApplicationListener,\
+    com.example.demo.listener.DemoStartingApplicationListener
